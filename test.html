@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="connect">连接服务端</button>
+  <button id="send" disabled="true">发送数据</button><br>
+  从服务端接收到的数据如下： <br>
+  <span id="recieve"></span>
+  <script>
+    var connect = document.querySelector("#connect");
+    var send = document.querySelector("#send");
+    var recieve = document.querySelector("#recieve");
+
+    let ws = null;
+    connect.onclick = () => {
+      ws = new WebSocket("ws://localhost:8888");
+      ws.onopen = () => {
+        console.log("服务器连接成功！");
+        send.disabled = false;
+      };
+      ws.onclose = () => {
+        console.log("服务器连接失败");
+        send.disabled = true;
+      };
+      ws.onmessage = msg => {
+        console.log("接收到从服务端发来的信息");
+        console.log(msg);
+        recieve.innerHTML = msg.data;
+      };
+    };
+    send.onclick = () => {
+      ws.send(JSON.stringify({
+        action: "getData",
+        type: "trendData",
+        name: "trend",
+        value: ""
+      }));
+      // ws.send("客户端发送给服务端");
+    };
+  </script>
+</body>
+</html>

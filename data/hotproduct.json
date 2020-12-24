@@ -1,0 +1,260 @@
+[{
+    "name": "Projects",
+    "children": [{
+        "name": "admin-project",
+        "value": 201023,
+        "children": [{
+            "name": "Member_1",
+            "value": 1023
+          },
+          {
+            "name": "Member_2",
+            "value": 40000
+          },
+          {
+            "name": "Member_3",
+            "value": 160000
+          }
+        ]
+      },
+      {
+        "name": "SGTM_Urine Proteomics",
+        "value": 103735,
+        "children": [{
+            "name": "Member_1",
+            "value": 3735
+          },
+          {
+            "name": "Member_2",
+            "value": 70000
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "SGTM_Saliva Proteomics",
+        "value": 83834,
+        "children": [{
+            "name": "Member_1",
+            "value": 3834
+          },
+          {
+            "name": "Member_2",
+            "value": 50000
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "GHTM_FFPE",
+        "value": 68384,
+        "children": [{
+            "name": "Member_1",
+            "value": 30000
+          },
+          {
+            "name": "Member_2",
+            "value": 8384
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "GDF15",
+        "value": 45038,
+        "children": [{
+            "name": "Member_1",
+            "value": 10000
+          },
+          {
+            "name": "Member_2",
+            "value": 5038
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "HEPA1-6_CDX",
+        "value": 90382,
+        "children": [{
+            "name": "Member_1",
+            "value": 382
+          },
+          {
+            "name": "Member_2",
+            "value": 60000
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "CDX-MFC",
+        "value": 10201,
+        "children": [{
+            "name": "Member_1",
+            "value": 10000
+          },
+          {
+            "name": "Member_2",
+            "value": 201
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Labs",
+    "children": [{
+        "name": "Dr.Jun Qin Lab",
+        "value": 51932,
+        "children": [{
+            "name": "Member_1",
+            "value": 489
+          },
+          {
+            "name": "Member_2",
+            "value": 219
+          },
+          {
+            "name": "Member_3",
+            "value": 49423
+          },
+          {
+            "name": "Member_4",
+            "value": 1801
+          }
+        ]
+      },
+      {
+        "name": "Dr.Chen Ding Lab",
+        "value": 42013,
+        "children": [{
+            "name": "Member_1",
+            "value": 41089
+          },
+          {
+            "name": "Member_2",
+            "value": 924
+          }
+        ]
+      },
+      {
+        "name": "Firmiana",
+        "value": 58638,
+        "children": [{
+            "name": "Member_1",
+            "value": 32100
+          },
+          {
+            "name": "Member_2",
+            "value": 21000
+          },
+          {
+            "name": "Member_3",
+            "value": 5538
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "children": [{
+        "name": "AM-pretest",
+        "value": 430291,
+        "children": [{
+            "name": "Member_1",
+            "value": 30291
+          },
+          {
+            "name": "Member_2",
+            "value": 100000
+          },
+          {
+            "name": "Member_3",
+            "value": 300000
+          }
+        ]
+      },
+      {
+        "name": "phos_ub",
+        "value": 80284,
+        "children": [{
+            "name": "Member_1",
+            "value": 60284
+          },
+          {
+            "name": "Member_2",
+            "value": 10000
+          },
+          {
+            "name": "Member_3",
+            "value": 10000
+          }
+        ]
+      },
+      {
+        "name": "LGR4",
+        "value": 40294,
+        "children": [{
+            "name": "Member_1",
+            "value": 10294
+          },
+          {
+            "name": "Member_2",
+            "value": 5000
+          },
+          {
+            "name": "Member_3",
+            "value": 25000
+          }
+        ]
+      },
+      {
+        "name": "Cebpz antibody",
+        "value": 50939,
+        "children": [{
+            "name": "Member_1",
+            "value": 10939
+          },
+          {
+            "name": "Member_2",
+            "value": 10000
+          },
+          {
+            "name": "Member_3",
+            "value": 30000
+          }
+        ]
+      },
+      {
+        "name": "F-box protein",
+        "value": 10921,
+        "children": [{
+            "name": "Member_1",
+            "value": 921
+          },
+          {
+            "name": "Member_2",
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+]
